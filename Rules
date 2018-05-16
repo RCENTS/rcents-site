@@ -4,18 +4,24 @@ require 'bootstrap'
 
 compile '/index.md' do
   filter :kramdown
-  layout '/default.*'
-  write '/index.html'
+  layout '/home.*'
+  write item.identifier.without_ext + '.html'
 end
 
-compile '/**/*.html' do
-  layout '/default.*'
+compile '/ec/index.md' do
+  filter :kramdown
+  layout '/ec.*'
+  write item.identifier.without_ext + '.html'
+end
+
+compile '/ec/*.html' do
+  layout '/ec.*'
   write item.identifier.without_ext + '/index.html'
 end
 
-compile '/**/*.md' do
+compile '/ec/*.md' do
   filter :kramdown
-  layout '/default.*'
+  layout '/ec.*'
   write item.identifier.without_ext + '/index.html'
 end
 
