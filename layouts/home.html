@@ -10,8 +10,8 @@
 
     <title>RCENTS<%= " - #{@item[:title]}" if @item[:title] %></title>
 
-    <link href="/style/main.css" rel="stylesheet">
-    <link href="/style/sticky-footer.css" rel="stylesheet">
+    <link href="/<%= "#{@config[:site_pfx]}" if @config[:site_pfx] %>style/main.css" rel="stylesheet">
+    <link href="/<%= "#{@config[:site_pfx]}" if @config[:site_pfx] %>style/sticky-footer.css" rel="stylesheet">
     <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet"/>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -41,14 +41,14 @@
         <h2>Short Read Error Correction</h2>
         <p>We evaluate all the three main techniques used for short read error correction and multiple software products based on each underlying method
           - kmer- spectrum based methods, suffix tree/array based methods , and multiple sequence alignment based methods
-        &nbsp; <a class="btn btn-primary" href="/ec/" role="button">Details &raquo;</a></p>
+        &nbsp; <a class="btn btn-primary" href="/<%= "#{@config[:site_pfx]}" if @config[:site_pfx] %></a>ec/" role="button">Details &raquo;</a></p>
       </div>
       <hr/>
       <div class="card border-light">
         <h2>Long Read Error Correction</h2>
         <p> At present, there is renewed interest in long read PacBio sequencers, while at the same time early datasets from emerging Oxford Nanopore sequencers have become available.
           We evaluate both the hybrid and standalone approaches for long read error correction. 
-        &nbsp; <a class="btn btn-primary" href="/lec/" role="button">Details &raquo;</a></p>
+        &nbsp; <a class="btn btn-primary" href="/<%= "#{@config[:site_pfx]}" if @config[:site_pfx] %></a>lec/" role="button">Details &raquo;</a></p>
       </div>
       <hr/>
       <div class="card border-light">

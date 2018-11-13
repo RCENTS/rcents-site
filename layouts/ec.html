@@ -10,8 +10,8 @@
 
     <title>RCENTS<%= " - #{@item[:title]}" if @item[:title] %></title>
 
-    <link href="/style/main.css" rel="stylesheet">
-    <link href="/style/sticky-footer.css" rel="stylesheet">
+    <link href="/<%= "#{@config[:site_pfx]}" if @config[:site_pfx] %>style/main.css" rel="stylesheet">
+    <link href="/<%= "#{@config[:site_pfx]}" if @config[:site_pfx] %>style/sticky-footer.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.5.1/css/buttons.dataTables.min.css"/>
     <!--[if lt IE 9]>
@@ -28,26 +28,26 @@
 
   <body>
       <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-        <a class="navbar-brand" href="/">RCENTS</a>  
+        <a class="navbar-brand" href="/<%= "#{@config[:site_pfx]}" if @config[:site_pfx] %></a>">RCENTS</a>  
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/ec/">Error Correction</a>
+              <a class="nav-link" href="/<%= "#{@config[:site_pfx]}" if @config[:site_pfx] %></a>ec/">Error Correction</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/ec/evaluation/">Evaluation</a>
+                <a class="nav-link" href="/<%= "#{@config[:site_pfx]}" if @config[:site_pfx] %></a>ec/evaluation/">Evaluation</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/ec/benchmarks/">Benchmarks</a>
+                <a class="nav-link" href="/<%= "#{@config[:site_pfx]}" if @config[:site_pfx] %></a>ec/benchmarks/">Benchmarks</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/ec/results/">Results</a>
+              <a class="nav-link" href="/<%= "#{@config[:site_pfx]}" if @config[:site_pfx] %></a>ec/results/">Results</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/ec/images/">Images</a>
+              <a class="nav-link" href="/<%= "#{@config[:site_pfx]}" if @config[:site_pfx] %></a>ec/images/">Images</a>
             </li>
           </ul>
           <!--
