@@ -2,31 +2,31 @@
 
 require 'bootstrap'
 
-compile '/index.md' do
+compile '/rcents/index.md' do
   filter :kramdown
   layout '/home.*'
   write item.identifier.without_ext + '.html'
 end
 
-compile '/ec/index.md' do
+compile '/rcents/ec/index.md' do
   filter :kramdown
   layout '/ec.*'
   write item.identifier.without_ext + '.html'
 end
 
-compile '/ec/*.md' do
+compile '/rcents/ec/*.md' do
   filter :kramdown
   layout '/ec.*'
   write item.identifier.without_ext + '/index.html'
 end
 
-compile '/lec/index.md' do
+compile '/rcents/lec/index.md' do
   filter :kramdown
   layout '/lec.*'
   write item.identifier.without_ext + '.html'
 end
 
-compile '/lec/*.md' do
+compile '/rcents/lec/*.md' do
   filter :kramdown
   layout '/lec.*'
   write item.identifier.without_ext + '/index.html'
