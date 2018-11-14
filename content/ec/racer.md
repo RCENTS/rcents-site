@@ -1,13 +1,6 @@
 ---
-title: Reproducibilty of Results
+title: Summary of Results
 ---
-- [Results](#results)
-- [RACER](#racer)
-    - [RACER evaluation using Read Search](#racer-evaluation-using-read-search)
-    - [RACER evaluation with BWA](#racer-evaluation-with-bwa)
-
-# Results
-----
 
 # RACER
 
