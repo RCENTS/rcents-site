@@ -2,222 +2,150 @@
 
 ## Dataset : SRR018292 (D. melanogaster)
 
-| --- | ------------------- | -------------- |
-|     | Stat                | Value          |
-| --- | ------------------- | -------------- |
-| 1   | No. Reads           | 24483260       |
-| 2   | TP (Bases)          | 5276335        |
-| 3   | FP (Bases)          | 281372060      |
-| 4   | TN (Bases)          | 717268340      |
-| 5   | FN (Bases)          | 35175214       |
-| 6   | Sensitivity (Bases) |  0.13043591977  |
-| 7   | Specificity (Bases) |  0.71824486571  |
-| 8   | Precision (Bases)   |  0.01840699299  |
-| 9   | Gain (Bases)        | -6.82534369697 |
-| 11  | TP (Reads)          | 24481          |
-| 12  | FP (Reads)          | 16231030       |
-| 13  | TN (Reads)          | 7361931        |
-| 14  | FN (Reads)          | 865818         |
-| 15  | Sensitivity (Reads) | 0.0274975036   |
-| 16  | Specificity (Reads) | 0.3120392985   |
-| 17  | Precision (Reads)   | 0.0015060123   |
-| 18  | Gain (Reads)        | -18.2034900635 |
+| --- | ------------------- | -------------- | -------------- | ---------- |
+|     | Stat                | Value          | Value Reported | Difference |
+| --- | ------------------- | -------------- | -------------- | ---------- |
+| 1   | No. Reads           | 24483260       | 24483260       |            |
+| 2   | Sensitivity (Bases) | 13.043591977   | 66.20          |            |
+| 3   | Specificity (Bases) | 71.824486571   | 96.12          |            |
+| 4   | Precision (Bases)   | 1.840699299    | 89.66          |            |
+| 5   | Gain (Bases)        | -682.534369697 | 58.57          |            |
+| 6   | Sensitivity (Reads) | 2.74975036     | 94.44          |            |
+| 7   | Specificity (Reads) | 31.20392985    | 99.86          |            |
+| 8   | Precision (Reads)   | 0.15060123     | 99.67          |            |
+| 9   | Gain (Reads)        | -1820.34900635 | 94.13          |            |
 {: #trowelTable1}
 ----
 
 
 ## Dataset : SRR018293 (D. melanogaster)
 
-| --- | ------------------- | ----------------- |
-|     | Stat                | Value             |
-| --- | ------------------- | ----------------- |
-| 1   | No. Reads           | 17088290          |
-| 2   | TP (Bases)          | 2474607           |
-| 3   | FP (Bases)          | 209364696         |
-| 4   | TN (Bases)          | 501668634         |
-| 5   | FN (Bases)          | 20052452          |
-| 6   | Sensitivity (Bases) | 0.109850424771    |
-| 7   | Specificity (Bases) | 0.705548689258    |
-| 8   | Precision (Bases)   | 0.0116815291825   |
-| 9   | Gain (Bases)        | -9.18407009987    |
-| 11  | TP (Reads)          | 8945              |
-| 12  | FP (Reads)          | 11112415          |
-| 13  | TN (Reads)          | 5551031           |
-| 14  | FN (Reads)          | 415899            |
-| 15  | Sensitivity (Reads) | 0.0210547871689   |
-| 16  | Specificity (Reads) | 0.333126233313    |
-| 17  | Precision (Reads)   | 0.000804308106203 |
-| 18  | Gain (Reads)        | -26.1354049957    |
+| --- | ------------------- | --------------- | -------------- | ---------- |
+|     | Stat                | Value           | Value Reported | Difference |
+| --- | ------------------- | --------------- | -------------- | ---------- |
+| 1   | No. Reads           | 17088290        | 17088290       |            |
+| 2   | Sensitivity (Bases) | 10.9850424771   | 62.01          |            |
+| 3   | Specificity (Bases) | 70.5548689258   | 97.17          |            |
+| 4   | Precision (Bases)   | 1.16815291825   | 88.92          |            |
+| 5   | Gain (Bases)        | -918.407009987  | 54.28          |            |
+| 6   | Sensitivity (Reads) | 2.10547871689   | 92.68          |            |
+| 7   | Specificity (Reads) | 33.3126233313   | 99.96          |            |
+| 8   | Precision (Reads)   | 0.0804308106203 | 99.88          |            |
+| 9   | Gain (Reads)        | -2613.54049957  | 92.57          |            |
 {: #trowelTable2}
 
 ## Dataset : SRR018294 (D. melanogaster)
 
-| --- | ------------------- | ---------------- |
-|     | Stat                | Value            |
-| --- | ------------------- | ---------------- |
-| 1   | No. Reads           | 18927440         |
-| 2   | TP (Bases)          | 18624800         |
-| 3   | FP (Bases)          | 1071257326       |
-| 4   | TN (Bases)          | 253406655        |
-| 5   | FN (Bases)          | 33802334         |
-| 6   | Sensitivity (Bases) | 0.355251156777   |
-| 7   | Specificity (Bases) | 0.191298818896   |
-| 8   | Precision (Bases)   | 0.0170888204841  |
-| 9   | Gain (Bases)        | -20.0780101006   |
-| 11  | TP (Reads)          | 7366             |
-| 12  | FP (Reads)          | 1808091          |
-| 13  | TN (Reads)          | 16795330         |
-| 14  | FN (Reads)          | 316653           |
-| 15  | Sensitivity (Reads) | 0.0227332347794  |
-| 16  | Specificity (Reads) | 0.902808682339   |
-| 17  | Precision (Reads)   | 0.00405738059343 |
-| 18  | Gain (Reads)        | -5.55746730902   |
+| --- | ------------------- | -------------- | -------------- | ---------- |
+|     | Stat                | Value          | Value Reported | Difference |
+| --- | ------------------- | -------------- | -------------- | ---------- |
+| 1   | No. Reads           | 18927440       | 18927440       |            |
+| 2   | Sensitivity (Bases) | 35.5251156777  | 58.10          |            |
+| 3   | Specificity (Bases) | 19.1298818896  | 99.57          |            |
+| 4   | Precision (Bases)   | 1.70888204841  | 98.83          |            |
+| 5   | Gain (Bases)        | -2007.80101006 | 57.41          |            |
+| 6   | Sensitivity (Reads) | 2.27332347794  | 72.67          |            |
+| 7   | Specificity (Reads) | 90.2808682339  | 99.92          |            |
+| 8   | Precision (Reads)   | 0.405738059343 | 99.82          |            |
+| 9   | Gain (Reads)        | -555.746730902 | 72.54          |            |
 {: #trowelTable3}
 
 ## Dataset : SRR060098 (D. melanogaster)
 
-| --- | ------------------- | ----------------- |
-|     | Stat                | Value             |
-| --- | ------------------- | ----------------- |
-| 1   | No. Reads           | 37921094          |
-| 2   | TP (Bases)          | 31316812          |
-| 3   | FP (Bases)          | 2803551521        |
-| 4   | TN (Bases)          | 585073757         |
-| 5   | FN (Bases)          | 95781639          |
-| 6   | Sensitivity (Bases) | 0.246398061924    |
-| 7   | Specificity (Bases) | 0.172658145708    |
-| 8   | Precision (Bases)   | 0.0110470075931   |
-| 9   | Gain (Bases)        | -21.8117112143    |
-| 11  | TP (Reads)          | 2592              |
-| 12  | FP (Reads)          | 2967068           |
-| 13  | TN (Reads)          | 34432239          |
-| 14  | FN (Reads)          | 519195            |
-| 15  | Sensitivity (Reads) | 0.00496754422782  |
-| 16  | Specificity (Reads) | 0.920665160988    |
-| 17  | Precision (Reads)   | 0.000872827192339 |
-| 18  | Gain (Reads)        | -5.6813910657     |
+| --- | ------------------- | --------------- | -------------- | ---------- |
+|     | Stat                | Value           | Value Reported | Difference |
+| --- | ------------------- | --------------- | -------------- | ---------- |
+| 1   | No. Reads           | 37921094        | 37921094       |            |
+| 2   | Sensitivity (Bases) | 24.6398061924   | 42.73          |            |
+| 3   | Specificity (Bases) | 17.2658145708   | 99.71          |            |
+| 4   | Precision (Bases)   | 1.10470075931   | 98.69          |            |
+| 5   | Gain (Bases)        | -2181.17112143  | 42.15          |            |
+| 6   | Sensitivity (Reads) | 0.496754422782  | 59.40          |            |
+| 7   | Specificity (Reads) | 92.0665160988   | 99.98          |            |
+| 8   | Precision (Reads)   | 0.0872827192339 | 99.94          |            |
+| 9   | Gain (Reads)        | -568.13910657   | 59.36          |            |
 {: #trowelTable4}
 
 
 ## Dataset : ERR022075 (E. coli)
 
-| --- | ------------------- | ---------------- |
-|     | Stat                | Value            |
-| --- | ------------------- | ---------------- |
-| 1   | No. Reads           | 45440200         |
-| 2   | TP (Bases)          | 15824941         |
-| 3   | FP (Bases)          | 4374472852       |
-| 4   | TN (Bases)          | 109875803        |
-| 5   | FN (Bases)          | 24242232         |
-| 6   | Sensitivity (Bases) | 0.394960258364   |
-| 7   | Specificity (Bases) | 0.0245020651723  |
-| 8   | Precision (Bases)   | 0.00360452564863 |
-| 9   | Gain (Bases)        | -108.783514899   |
-| 11  | TP (Reads)          | 303              |
-| 12  | FP (Reads)          | 103745           |
-| 13  | TN (Reads)          | 45141743         |
-| 14  | FN (Reads)          | 194409           |
-| 15  | Sensitivity (Reads) | 0.00155614445951 |
-| 16  | Specificity (Reads) | 0.997707064183   |
-| 17  | Precision (Reads)   | 0.00291211748424 |
-| 18  | Gain (Reads)        | -0.531256419738  |
+| --- | ------------------- | -------------- | -------------- | ---------- |
+|     | Stat                | Value          | Value Reported | Difference |
+| --- | ------------------- | -------------- | -------------- | ---------- |
+| 1   | No. Reads           | 45440200       | 28428648       |            |
+| 2   | Sensitivity (Bases) | 39.4960258364  | 97.90          |            |
+| 3   | Specificity (Bases) | 2.45020651723  | 99.94          |            |
+| 4   | Precision (Bases)   | 0.360452564863 | 99.75          |            |
+| 5   | Gain (Bases)        | -10878.3514899 | 97.66          |            |
+| 6   | Sensitivity (Reads) | 0.155614445951 | 99.05          |            |
+| 7   | Specificity (Reads) | 99.7707064183  | 100.0          |            |
+| 8   | Precision (Reads)   | 0.291211748424 | 100.0          |            |
+| 9   | Gain (Reads)        | -53.1256419738 | 99.05          |            |
 {: #trowelTable5}
 
 
 ## Dataset : SRR001665 (E. coli)
 
-| --- | ------------------- | ---------------- |
-|     | Stat                | Value            |
-| --- | ------------------- | ---------------- |
-| 1   | No. Reads           | 20816448         |
-| 2   | TP (Bases)          | 3710833          |
-| 3   | FP (Bases)          | 698501614        |
-| 4   | TN (Bases)          | 16025648         |
-| 5   | FN (Bases)          | 2395863          |
-| 6   | Sensitivity (Bases) | 0.607666240468   |
-| 7   | Specificity (Bases) | 0.0224283226859  |
-| 8   | Precision (Bases)   | 0.00528448764452 |
-| 9   | Gain (Bases)        | -113.775236396   |
-| 11  | TP (Reads)          | 17035            |
-| 12  | FP (Reads)          | 344368           |
-| 13  | TN (Reads)          | 20230060         |
-| 14  | FN (Reads)          | 224985           |
-| 15  | Sensitivity (Reads) | 0.0703867448971  |
-| 16  | Specificity (Reads) | 0.983262329334   |
-| 17  | Precision (Reads)   | 0.0471357459678  |
-| 18  | Gain (Reads)        | -1.3525039253    |
+| --- | ------------------- | -------------- | -------------- | ---------- |
+|     | Stat                | Value          | Value Reported | Difference |
+| --- | ------------------- | -------------- | -------------- | ---------- |
+| 1   | No. Reads           | 20816448       | 20816448       |            |
+| 2   | Sensitivity (Bases) | 60.7666240468  | 78.94          |            |
+| 3   | Specificity (Bases) | 2.24283226859  | 99.87          |            |
+| 4   | Precision (Bases)   | 0.528448764452 | 97.01          |            |
+| 5   | Gain (Bases)        | -11377.5236396 | 76.51          |            |
+| 6   | Sensitivity (Reads) | 7.03867448971  | 88.82          |            |
+| 7   | Specificity (Reads) | 98.3262329334  | 100.0          |            |
+| 8   | Precision (Reads)   | 4.71357459678  | 100.0          |            |
+| 9   | Gain (Reads)        | -135.25039253  | 88.82          |            |
 {: #trowelTable6}
 
 ## Dataset : SRR022918 (E. coli)
 
-| --- | ------------------- | --------------- |
-|     | Stat                | Value           |
-| --- | ------------------- | --------------- |
-| 1   | No. Reads           | 14408630        |
-| 2   | TP (Bases)          | 43977104        |
-| 3   | FP (Bases)          | 287350147       |
-| 4   | TN (Bases)          | 51086266        |
-| 5   | FN (Bases)          | 55029991        |
-| 6   | Sensitivity (Bases) | 0.444181338721  |
-| 7   | Specificity (Bases) | 0.150947900514  |
-| 8   | Precision (Bases)   | 0.132730114614  |
-| 9   | Gain (Bases)        | -2.45813739914  |
-| 11  | TP (Reads)          | 208596          |
-| 12  | FP (Reads)          | 881716          |
-| 13  | TN (Reads)          | 8457757         |
-| 14  | FN (Reads)          | 4860561         |
-| 15  | Sensitivity (Reads) | 0.0411500373731 |
-| 16  | Specificity (Reads) | 0.905592531827  |
-| 17  | Precision (Reads)   | 0.191317714562  |
-| 18  | Gain (Reads)        | -0.132787364842 |
+| --- | ------------------- | -------------- | -------------- | ---------- |
+|     | Stat                | Value          | Value Reported | Difference |
+| --- | ------------------- | -------------- | -------------- | ---------- |
+| 1   | No. Reads           | 14408630       | 14408630       |            |
+| 2   | Sensitivity (Bases) | 44.4181338721  | 44.72          |            |
+| 3   | Specificity (Bases) | 15.0947900514  | 99.99          |            |
+| 4   | Precision (Bases)   | 13.2730114614  | 99.99          |            |
+| 5   | Gain (Bases)        | -245.813739914 | 44.72          |            |
+| 6   | Sensitivity (Reads) | 4.11500373731  | 70.78          |            |
+| 7   | Specificity (Reads) | 90.5592531827  | 100.0          |            |
+| 8   | Precision (Reads)   | 19.1317714562  | 100.0          |            |
+| 9   | Gain (Reads)        | -13.2787364842 | 70.78          |            |
 {: #trowelTable7}
 
 ## Dataset : SRR022866 (E. coli)
 
-| --- | ------------------- | ---------------- |
-|     | Stat                | Value            |
-| --- | ------------------- | ---------------- |
-| 1   | No. Reads           | 25551716         |
-| 2   | TP (Bases)          | 54405759         |
-| 3   | FP (Bases)          | 1155157094       |
-| 4   | TN (Bases)          | 66658504         |
-| 5   | FN (Bases)          | 41732874         |
-| 6   | Sensitivity (Bases) | 0.565909429979   |
-| 7   | Specificity (Bases) | 0.0545569266828  |
-| 8   | Precision (Bases)   | 0.0449796873846  |
-| 9   | Gain (Bases)        | -11.4496254071   |
-| 11  | TP (Reads)          | 245984           |
-| 12  | FP (Reads)          | 719528           |
-| 13  | TN (Reads)          | 16645193         |
-| 14  | FN (Reads)          | 7941011          |
-| 15  | Sensitivity (Reads) | 0.0300457005287  |
-| 16  | Specificity (Reads) | 0.958563803012   |
-| 17  | Precision (Reads)   | 0.254770525897   |
-| 18  | Gain (Reads)        | -0.0578410027122 |
+| --- | ------------------- | -------------- | -------------- | ---------- |
+|     | Stat                | Value          | Value Reported | Difference |
+| --- | ------------------- | -------------- | -------------- | ---------- |
+| 1   | No. Reads           | 25551716       | 25551716       |            |
+| 2   | Sensitivity (Bases) | 56.5909429979  | 44.78          |            |
+| 3   | Specificity (Bases) | 5.45569266828  | 99.92          |            |
+| 4   | Precision (Bases)   | 4.49796873846  | 99.86          |            |
+| 5   | Gain (Bases)        | -1144.96254071 | 44.72          |            |
+| 6   | Sensitivity (Reads) | 3.00457005287  | 64.06          |            |
+| 7   | Specificity (Reads) | 95.8563803012  | 99.97          |            |
+| 8   | Precision (Reads)   | 25.4770525897  | 99.97          |            |
+| 9   | Gain (Reads)        | -5.78410027122 | 64.04          |            |
 {: #trowelTable8}
 
 ## Dataset : SRR352384 (S. cerevisiae)
 
-| --- | ------------------- | ----------------- |
-|     | Stat                | Value             |
-| --- | ------------------- | ----------------- |
-| 1   | No. Reads           | 52061664          |
-| 2   | TP (Bases)          | 9923967           |
-| 3   | FP (Bases)          | 3401720853        |
-| 4   | TN (Bases)          | 191019429         |
-| 5   | FN (Bases)          | 62938447          |
-| 6   | Sensitivity (Bases) | 0.136201457723    |
-| 7   | Specificity (Bases) | 0.053168170813    |
-| 8   | Precision (Bases)   | 0.0029088511623   |
-| 9   | Gain (Bases)        | -46.5507070079    |
-| 11  | TP (Reads)          | 1606              |
-| 12  | FP (Reads)          | 1752117           |
-| 13  | TN (Reads)          | 47121406          |
-| 14  | FN (Reads)          | 3186535           |
-| 15  | Sensitivity (Reads) | 0.000503741835759 |
-| 16  | Specificity (Reads) | 0.964149975438    |
-| 17  | Precision (Reads)   | 0.000915766058836 |
-| 18  | Gain (Reads)        | -0.549069504768   |
+| --- | ------------------- | --------------- | -------------- | ---------- |
+|     | Stat                | Value           | Value Reported | Difference |
+| --- | ------------------- | --------------- | -------------- | ---------- |
+| 1   | No. Reads           | 52061664        | 52061664       |            |
+| 2   | Sensitivity (Bases) | 13.6201457723   | 15.48          |            |
+| 3   | Specificity (Bases) | 5.3168170813    | 99.94          |            |
+| 4   | Precision (Bases)   | 0.29088511623   | 98.51          |            |
+| 5   | Gain (Bases)        | -4655.07070079  | 15.25          |            |
+| 6   | Sensitivity (Reads) | 0.0503741835759 | 37.00          |            |
+| 7   | Specificity (Reads) | 96.4149975438   | 99.99          |            |
+| 8   | Precision (Reads)   | 0.0915766058836 | 99.98          |            |
+| 9   | Gain (Reads)        | -54.9069504768  | 36.99          |            |
 {: #trowelTable9}
 
 
