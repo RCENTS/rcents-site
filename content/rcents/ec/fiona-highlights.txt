@@ -1,0 +1,5 @@
+454 datasets (4 datasets) : Reported : top 4 of table S6 in suppl. pdf; top 4 to table 2 in main paper (Firefox)
+Ion datasets (5 datasets) : Reported : (ERR039477 8x E.coli K12); (SRR611140 163x E.coli K12); (SRR254209 32x E. coli O104); 
+                                        (ERR161541 85x B. pertussis); (SRR620425 156x E.coli )
+Illumina (4 datasets) : (D.melanogaster 	28× ); E.coli K-12 	490× ; P.syringae 	42× ; S.cerevisae 	22× 
+
