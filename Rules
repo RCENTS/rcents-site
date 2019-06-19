@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'bootstrap'
+require 'octicons'
 
 compile '/rcents/index.md' do
   filter :kramdown
@@ -15,6 +16,7 @@ compile '/rcents/ec/index.md' do
 end
 
 compile '/rcents/ec/*.md' do
+  filter :erb
   filter :kramdown
   layout '/ec.*'
   write item.identifier.without_ext + '/index.html'

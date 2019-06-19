@@ -9,6 +9,8 @@ gem 'bootstrap', '~> 4.1.1'
 
 gem 'kramdown'
 
+gem 'octicons'
+
 # Guard
 gem 'guard-nanoc', '~> 2.1'
 gem 'rb-readline'

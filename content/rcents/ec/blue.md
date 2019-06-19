@@ -2,16 +2,38 @@
 title:  Blue
 ---  
 
+# Blue Error Correction
+----
 
-## Dataset : ERR330008 (P. aeruginosa)
+| Docker Image   | <%= Octicons::Octicon.new("gear").to_svg %>  [rcents/im:blue](https://hub.docker.com/r/rcents/im) |
+| Publication | <%= Octicons::Octicon.new("file").to_svg %>  [doi:10.1093/bioinformatics/btu368](https://doi.org/10.1093/bioinformatics/btu368)  |
+| Homepage | <%= Octicons::Octicon.new("home").to_svg %> [CSIRO/blue](http://bioinformatics.csiro.au/blue)                                     |
+| Source  | <%= Octicons::Octicon.new("repo").to_svg %> [github/PaulGreenfieldOz](https://github.com/PaulGreenfieldOz/WorkingDogs/tree/master/Blue) |
+| Reproducibility Scripts | <%= Octicons::Octicon.new("beaker").to_svg %>  [RCENTS/ec/blue](https://github.com/RCENTS/ec/tree/master/runs/blue) |
+{: #imageblue1}
 
-          ----
+
+## Evaluation Metric
+----
+
+## Parameter Selection
+-----
+
+## Datasets
+-----
+
+
+## Results
+----
+
+### Dataset : ERR330008 (P. aeruginosa)
+-----
 
  | --- | ---------------------- | -------- | ----------------- | --------- | -------- | ---------------- | ---------- |
  |     | Stat                   | Before   | Before (reported) | Differnce | After    | After (reported) | Difference |
  | --- | ---------------------- | -------- | ----------------- | --------- | -------- | ---------------- | ---------- |
  | 1   | No. Total Reads        | 10020458 | 9859280           | 161178    | 10020458 | 9859280          | 161178     |
- | 2   | No. Perfect eads       | 6993836  | 9728163           | -2734327  | 9878651  | 9728163          | 150488     |
+ | 2   | No. Perfect Reads      | 6993836  | 9728163           | -2734327  | 9878651  | 9728163          | 150488     |
  | 3   | No. Reads w. 1 edit    | 1193434  | 1170891           | 22543     | 15573    | 8327             | 7246       |
  | 4   | No. Reads w. 2 edits   | 451595   | 445059            | 6536      | 2450     | 2302             | 148        |
  | 5   | No. Reads w. 3 edits   | 260289   | 257066            | 3223      | 1218     | 833              | 385        |
@@ -36,7 +58,8 @@ title:  Blue
  {: #blueTable1}
 ----
 
-<!-- ## Dataset : ERR008613 (E. coli)
+<!-- 
+### Dataset : ERR008613 (E. coli)
 ----
 
 
@@ -69,9 +92,10 @@ title:  Blue
 | 24  | % Reads w. 10 edits    | 3.543    | 0.399    |
 | 25  | % Reads w. >10 edits   | 0.826    | 0.528    |
 {: #blueTable2}
----- -->
+---- 
+-->
 
-## Dataset : SRR029323 (E. coli)
+### Dataset : SRR029323 (E. coli)
 ----
 
 
@@ -105,7 +129,7 @@ title:  Blue
 ----
 
 
-## Dataset : SRR001355 (E. coli)
+### Dataset : SRR001355 (E. coli)
 ----
 
 | --- | -------------------- | ------ | ----------------- | ---------- | ------ | ---------------- | ---------- |
@@ -191,12 +215,10 @@ $(document).ready( function () {
             }
         ]
     });
+    $('#imageblue1').DataTable({"paging":false});
+
 } );
 </script>
-
-														
-
-
 
 
 

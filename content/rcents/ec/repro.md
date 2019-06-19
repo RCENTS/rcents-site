@@ -1,9 +1,6 @@
 ---
 title: Reproducibilty of Results
 ---
-- [Reproducibility](#reproducibility)
-- [Summary](#summary)
-- [Full Results](#full-results)
 
 # Reproducibility 
 
