@@ -5,6 +5,8 @@ title: Images
 # Short Read Error Correction
 ----
 
+The page provides links to the docker images, publication, home page and the source code for the short read error correction software evaluated for reproducibility.
+
 
 ## Blue
 

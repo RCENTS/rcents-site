@@ -1,7 +1,7 @@
 ---
 title: Reproducibilty of Results
 ---
-
+<!--
 # Reproducibility 
 
 ---
@@ -9,8 +9,11 @@ title: Reproducibilty of Results
 # Summary
 
 ---
+-->
 
-# Full Results
+# Results of Reproducibility Experiments
+
+The reproducibility results are currently available for the following error correction software. We will update as and when we have more results available.
 
 1. [RACER](/rcents/ec/racer/)
 2. [Lighter](/rcents/ec/lighter/)
