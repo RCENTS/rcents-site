@@ -3,6 +3,7 @@ title:  Blue
 ---  
 
 # Blue Error Correction
+
 ----
 
 | Docker Image   | <%= Octicons::Octicon.new("gear").to_svg %>  [rcents/im:blue](https://hub.docker.com/r/rcents/im) |
@@ -12,22 +13,25 @@ title:  Blue
 | Reproducibility Scripts | <%= Octicons::Octicon.new("beaker").to_svg %>  [RCENTS/ec/blue](https://github.com/RCENTS/ec/tree/master/runs/blue) |
 {: #imageblue1}
 
-
 ## Evaluation Metric
+
 ----
 
 ## Parameter Selection
------
+
+----
 
 ## Datasets
------
 
+----
 
 ## Results
+
 ----
 
 ### Dataset : ERR330008 (P. aeruginosa)
------
+
+----
 
  | --- | ---------------------- | -------- | ----------------- | --------- | -------- | ---------------- | ---------- |
  |     | Stat                   | Before   | Before (reported) | Differnce | After    | After (reported) | Difference |
@@ -96,8 +100,8 @@ title:  Blue
 -->
 
 ### Dataset : SRR029323 (E. coli)
-----
 
+----
 
 | --- | ---------------------- | ------ | ----------------- | ---------- | ------ | ---------------- | ---------- |
 |     | Stat                   | Before | Before (Reported) | Difference | After  | After (Reported) | Difference |
@@ -128,8 +132,8 @@ title:  Blue
 {: #blueTable3}
 ----
 
-
 ### Dataset : SRR001355 (E. coli)
+
 ----
 
 | --- | -------------------- | ------ | ----------------- | ---------- | ------ | ---------------- | ---------- |

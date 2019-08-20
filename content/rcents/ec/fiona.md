@@ -2,8 +2,54 @@
 title:  Fiona
 ---  
 
+# Fiona Error Correction
 
-## DATASET :  SRR034841,SRR034842,SRR034843,SRR034844  ORGANISM :  D. melanogaster
+----
+
+| Docker Image   | <%= Octicons::Octicon.new("gear").to_svg %>  [rcents/im:fiona](https://hub.docker.com/r/rcents/im) |
+| Publication | <%= Octicons::Octicon.new("file").to_svg %>  [doi:10.1093/bioinformatics/btu368](https://doi.org/10.1093/bioinformatics/btu440)  |
+| Homepage | <%= Octicons::Octicon.new("home").to_svg %> [SeqAn](http://www.seqan.de/apps/fiona/)                                     |
+| Source  | <%= Octicons::Octicon.new("repo").to_svg %> [github/seqan](https://github.com/seqan/seqan/tree/master/apps/fiona) |
+| Reproducibility Scripts | <%= Octicons::Octicon.new("beaker").to_svg %>  [RCENTS/ec/fiona](https://github.com/RCENTS/ec/tree/master/runs/fiona) |
+{: #imagefiona1}
+
+----
+
+## Evaluation Metric
+
+----
+
+From the paper:
+
+> For the evaluation of read correction quality, the metric gain
+> has been established in (Yang et al., 2010, 2013) as a good 
+> summary of both sensitivity and precision. The gain can be computed
+> by (b−a)/b where a and b are the sums over the number of errors after 
+> and before correction over all reads. When more errors are introduced 
+> than corrected over all the reads, the gain takes a negative value. 
+> For the evaluation, we developed a tool compute_gain, which is 
+> included in the Fiona distribution.
+
+----
+
+## Parameter Selection
+
+----
+
+----
+
+## Datasets
+
+----
+
+----
+
+## Results
+
+----
+
+#### Dataset:  SRR034841-4  (D. melanogaster)
+
 ----
 
  | --- | ----------- | -------- | --------- | ---------- |
@@ -17,8 +63,8 @@ title:  Fiona
  {: #fionaTable1}
 ----
 
+#### Dataset:  SRR000868  (E. coli K-12 MG1655)
 
-## DATASET :  SRR000868  ORGANISM :  E. coli K-12 MG1655
 ----
 
  | --- | ----------- | -------- | -------- | ---------- |
@@ -32,8 +78,8 @@ title:  Fiona
  {: #fionaTable2}
 ----
 
+#### Dataset:  SRR096469-70  (S. cerevisae S288C)
 
-## DATASET :  SRR096469,SRR096470  ORGANISM :  S. cerevisae S288C
 ----
 
  | --- | ----------- | -------- | -------- | ---------- |
@@ -47,7 +93,8 @@ title:  Fiona
  {: #fionaTable3}
 ----
 
-## DATASET :  SRR070596  ORGANISM :  S. aureus LGA251
+#### Dataset:  SRR070596 (S. aureus LGA251)
+
 ----
 
  | --- | ----------- | -------- | -------- | ---------- |
@@ -60,7 +107,7 @@ title:  Fiona
  | 5   | Gain        | 13.0381  | 69.87    | -56.8319   |
  {: #fionaTable4}
 ----
- 
+
 <script>
 $(document).ready( function () {
     $('#fionaTable1').DataTable({
@@ -117,4 +164,3 @@ $(document).ready( function () {
     });
 } );
 </script>
-
