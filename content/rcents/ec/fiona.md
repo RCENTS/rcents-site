@@ -38,15 +38,59 @@ From the paper:
 
 ----
 
-## Datasets
+### Datasets
 
 ----
 
-----
-
-## Results
+#### Illumina Datasets
 
 ----
+
+| Organism        | Accession | Avg. Length | Read Count | Coverage |
+| --------------- | --------- | ----------- | ---------- | -------- |
+| C. elegans      | SRR443373 | 100 bp      | 29 657 035 | 30X      |
+| D. melanogaster | SRR492060 | 76 bp       | 51 727 822 | 28X      |
+| E. coli K-12    | ERR022075 | 100 bp      | 22 720 100 | 490X     |
+| P. syringae     | ERR005143 | 36 bp       | 14 204 532 | 42X      |
+| S. cerevisae    | SRR031259 | 36 bp       | 7 485 708  | 22X      |
+
+#### 454 Datasets
+
+----
+
+| Organism        | Accession | Avg. Length | Read Count | Coverage |
+| --------------- | --------- | ----------- | ---------- | -------- |
+| D. melanogaster | SRX016210 | 544 bp      | 4 692 486  | 18X      |
+| E. coli K-12    | SRR000868 | 253 bp      | 230 517    | 13X      |
+| S. aureus       | SRR070596 | 514 bp      | 185 384    | 34X      |
+| S. cerevisae    | SRX039441 | 274 bp      | 690 237    | 16X      |
+
+#### Ion Torrent Datasets
+
+| Organism      | Accession  | Avg. Length | Read Count  | Coverage |
+| ------------- | ---------- | ----------- | ----------- | -------- |
+| B.pertussis   | ERR161541  | 142 bp      | 2 464 690   | 85 X     |
+| E. coli K-12  | ERR039477  | 92  bp      | 390 976     | 8X       |
+| E. coli K-12  | SRR611140  | 162 bp      | 4 669 065   | 163X     |
+| E. coli K-12  | SRR620425  | 170 bp      | 4 237 734   | 156X     |
+| E. coli K-12  | SRR254209  | 178 bp      | 977 971     | 32X      |
+| H. sapiens    | SRR1238539 | 177 bp      | 186 132 134 | 11X      |
+| P. falciparum | ERR161543  | 154 bp      | 1 959 564   | 13X      |
+| S. aureus     | ERR236069  | 228 bp      | 1 338 465   | 109X     |
+
+----
+
+
+### Results
+
+----
+
+All the datasets except C.elegans were run for Illumina. 
+- C. elgans couldnt complete within the allocated time of 48 hours per task!
+
+All the datasts for 454 were run sucessfully.
+
+H. sapiens, P. falciparum  and S. aureus  failed for Ion Torrent because of out of time failures.
 
 #### Dataset:  SRR034841-4  (D. melanogaster)
 
