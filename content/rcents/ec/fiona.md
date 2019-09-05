@@ -15,6 +15,17 @@ title:  Fiona
 
 ----
 
+## Summary
+
+All the Illumina datasets except __C.elegans__ were successfully run. __C. elgans__ dataset couldnt complete within the allocated time of 48 hours per run. All the datasts for 454 were sucessfully run. Among the Ion Torrent datasets, __H. sapiens__, __P. falciparum 3D7__  and __S. aureus__ datasets failed to complete within the allocated time.
+
+In case of Illumina datasets, all the datasets that successfully ran show performance closer to the reported performance.
+In case of 454 datasets, there is a siginficant deviation (more than 10 points for *Gain*) from the reported performance.
+In case of Ion Torrent datasets, except for the __SRR620425  (E. coli K-12 MG1655)__ dataset, all other show significant (more than 10 points) difference between the claimed performance and the computed performance.
+
+
+----
+
 ## Evaluation Metric
 
 ----
@@ -36,6 +47,13 @@ From the paper:
 
 ----
 
+Paramters were selected as given in the __Supplementary Details__ document (Page 6):
+
+> We used paramter -t 8 for eight threads, and pass teh genome length using
+> -g GLEN. ... Fiona uses a default error rate of 0.05 and Fiona-H for Illumina
+> uses a default of 0.01
+
+
 ----
 
 ### Datasets
@@ -53,6 +71,8 @@ From the paper:
 | E. coli K-12    | ERR022075 | 100 bp      | 22 720 100 | 490X     | 45,440,200        |
 | P. syringae     | ERR005143 | 36 bp       | 14 204 532 | 42X      | 7,102,266         |
 | S. cerevisae    | SRR031259 | 36 bp       | 7 485 708  | 22X      | 7,485,708         |
+ {: #fionaDatasetTable1}
+----
 
 #### 454 Datasets
 
@@ -64,6 +84,8 @@ From the paper:
 | E. coli K-12    | SRR000868 | 253 bp      | 230 517    | 13X      | 230,517           |
 | S. aureus       | SRR070596 | 514 bp      | 185 384    | 34X      | 185,384           |
 | S. cerevisae    | SRX039441 | 274 bp      | 690 237    | 16X      | 690,237           |
+ {: #fionaDatasetTable2}
+----
 
 #### Ion Torrent Datasets
 
@@ -77,6 +99,7 @@ From the paper:
 | H. sapiens    | SRR1238539 | 177 bp      | 186 132 134 | 11X      | 186,132,134       |
 | P. falciparum | ERR161543  | 154 bp      | 1 959 564   | 13X      |                   |
 | S. aureus     | ERR236069  | 228 bp      | 1 338 465   | 109X     | 1,338,465         |
+ {: #fionaDatasetTable3}
 
 ----
 
@@ -85,12 +108,7 @@ From the paper:
 
 ----
 
-
-All the Illumina datasets except __C.elegans__ were successfully run. __C. elgans__ dataset couldnt complete within the allocated time of 48 hours per run.
-
-All the datasts for 454 were sucessfully run.
-
-H. sapiens, P. falciparum  and S. aureus  failed for Ion Torrent because of out of time failures.
+All the Illumina datasets except __C.elegans__ were successfully run. __C. elgans__ dataset couldnt complete within the allocated time of 48 hours per run. All the datasts for 454 were sucessfully run. Among the Ion Torrent datasets, __H. sapiens__, __P. falciparum 3D7__  and __S. aureus__ datasets failed to complete within the allocated time.
 
 #### Dataset:  ERR005143  (P. syringae)
 
@@ -175,43 +193,63 @@ H. sapiens, P. falciparum  and S. aureus  failed for Ion Torrent because of out 
 | 3 | Specificity | 98.22    | 99.90    | -1.72      |
  {: #fionaTable8}
 ----
-<!-- 
-DATASET :  ERR039477  ORGANISM :  E. coli K-12 MG1655
-QUICK STATS
-gain	base error rate pre	read error rate pre	base error rate post	read error rate post	sensitivity	specificity	TP	FP	TN	FN
-59.82942	1.34034	45.64981	0.53848	15.41807	71.61	99.84	337756	55552	35341861	133925
---
-  LOG ALL            	NO
-  BANDWIDTH          	10
 
-DATASET :  SRR611140  ORGANISM :  E. coli K-12 MG1655
-QUICK STATS
-gain	base error rate pre	read error rate pre	base error rate post	read error rate post	sensitivity	specificity	TP	FP	TN	FN
-72.19600	1.73154	79.93239	0.48231	30.96537	76.83	99.92	9798749	590808	741040003	2955338
---
-  LOG ALL            	NO
-  BANDWIDTH          	10
+#### Dataset:  ERR039477  (E. coli K-12 MG1655)
 
-DATASET :  SRR254209  ORGANISM :  E. coli O104:H4 str. 2011C-3493
-QUICK STATS
-gain	base error rate pre	read error rate pre	base error rate post	read error rate post	sensitivity	specificity	TP	FP	TN	FN
-11.31141	22.11444	99.99955	19.66251	99.00087	31.00	95.89	10656002	6768051157745352	23715931
---
-  LOG ALL            	NO
-  BANDWIDTH          	10
+The paper doesn't report Sensitivity and Specificity for this dataset.
 
-DATASET :  ERR161541  ORGANISM :  B. pertussis 18323
-QUICK STATS
-gain	base error rate pre	read error rate pre	base error rate post	read error rate post	sensitivity	specificity	TP	FP	TN	FN
-20.58370	14.35433	99.99446	11.40228	92.06633	51.87	95.76	25923084	15636144353196407	24053064
---
-  LOG ALL            	NO
-  BANDWIDTH          	10
+|   | Stat        | Computed | Reported | Difference |
+| - | ----------- | -------- | -------- | ---------- |
+| 1 | Gain        | 59.83    | 90.52    | -40.69     |
+| 2 | Sensitivity | 71.61    |   NA     |    NA      |
+| 3 | Specificity | 99.84    |   NA     |    NA      |
+ {: #fionaTable9}
+----
 
-DATASET :  SRR620425  ORGANISM :  E. coli K-12 MG1655
-QUICK STATS
-gain	base error rate pre	read error rate pre	base error rate post	read error rate post	sensitivity	specificity	TP	FP	TN	FN
-70.36237	1.22368	73.89846	0.36280	36.65475	73.53	99.96	6375052	274639	712707152	2294942 -->
+#### Dataset:  SRR611140  (E. coli K-12 MG1655)
+
+
+|   | Stat        | Computed | Reported | Difference |
+| - | ----------- | -------- | -------- | ---------- |
+| 1 | Gain        | 72.19    | 81.24    | -9.05      |
+| 2 | Sensitivity | 76.83    | 84.60    | -7.77      |
+| 3 | Specificity | 99.92    | 100.0    | -0.08      |
+ {: #fionaTable10}
+----
+
+#### Dataset:  SRR254209  (E. coli O104:H4)
+
+
+|   | Stat        | Computed | Reported | Difference |
+| - | ----------- | -------- | -------- | ---------- |
+| 1 | Gain        | 11.31    | 69.33    | -58.02     |
+| 2 | Sensitivity | 31.00    | 76.10    | -45.10     |
+| 3 | Specificity | 95.89    | 99.70    | -3.91      |
+ {: #fionaTable11}
+----
+
+#### Dataset:  ERR161541  (B. pertussis 18323)
+
+
+|   | Stat        | Computed | Reported | Difference |
+| - | ----------- | -------- | -------- | ---------- |
+| 1 | Gain        | 20.58    | 72.83    | -51.15     |
+| 2 | Sensitivity | 51.87    | 77.80    | -25.93     |
+| 3 | Specificity | 95.76    | 99.80    | -4.04      |
+ {: #fionaTable12}
+----
+
+
+#### Dataset:  SRR620425  (E. coli K-12 MG1655)
+
+
+|   | Stat        | Computed | Reported | Difference |
+| - | ----------- | -------- | -------- | ---------- |
+| 1 | Gain        | 70.36    | 74.06    | -3.70      |
+| 2 | Sensitivity | 73.53    | 76.60    | -3.07      |
+| 3 | Specificity | 99.96    | 100.0    | -0.04      |
+ {: #fionaTable13}
+----
 
 
 <script>
@@ -256,6 +294,162 @@ $(document).ready( function () {
         ]
     });
     $('#fionaTable4').DataTable({
+        "paging":false,
+        "columnDefs": [
+            {
+                "targets": -1,
+                "className": 'dt-body-right'
+            },
+            {
+                "targets": -2,
+                "className": 'dt-body-right'
+            }
+        ]
+    });
+    $('#fionaTable5').DataTable({
+        "paging":false,
+        "columnDefs": [
+            {
+                "targets": -1,
+                "className": 'dt-body-right'
+            },
+            {
+                "targets": -2,
+                "className": 'dt-body-right'
+            }
+        ]
+    });
+    $('#fionaTable6').DataTable({
+        "paging":false,
+        "columnDefs": [
+            {
+                "targets": -1,
+                "className": 'dt-body-right'
+            },
+            {
+                "targets": -2,
+                "className": 'dt-body-right'
+            }
+        ]
+    });
+    $('#fionaTable7').DataTable({
+        "paging":false,
+        "columnDefs": [
+            {
+                "targets": -1,
+                "className": 'dt-body-right'
+            },
+            {
+                "targets": -2,
+                "className": 'dt-body-right'
+            }
+        ]
+    });
+    $('#fionaTable8').DataTable({
+        "paging":false,
+        "columnDefs": [
+            {
+                "targets": -1,
+                "className": 'dt-body-right'
+            },
+            {
+                "targets": -2,
+                "className": 'dt-body-right'
+            }
+        ]
+    });
+    $('#fionaTable9').DataTable({
+        "paging":false,
+        "columnDefs": [
+            {
+                "targets": -1,
+                "className": 'dt-body-right'
+            },
+            {
+                "targets": -2,
+                "className": 'dt-body-right'
+            }
+        ]
+    });
+    $('#fionaTable10').DataTable({
+        "paging":false,
+        "columnDefs": [
+            {
+                "targets": -1,
+                "className": 'dt-body-right'
+            },
+            {
+                "targets": -2,
+                "className": 'dt-body-right'
+            }
+        ]
+    });
+    $('#fionaTable11').DataTable({
+        "paging":false,
+        "columnDefs": [
+            {
+                "targets": -1,
+                "className": 'dt-body-right'
+            },
+            {
+                "targets": -2,
+                "className": 'dt-body-right'
+            }
+        ]
+    });
+    $('#fionaTable12').DataTable({
+        "paging":false,
+        "columnDefs": [
+            {
+                "targets": -1,
+                "className": 'dt-body-right'
+            },
+            {
+                "targets": -2,
+                "className": 'dt-body-right'
+            }
+        ]
+    });
+    $('#fionaTable13').DataTable({
+        "paging":false,
+        "columnDefs": [
+            {
+                "targets": -1,
+                "className": 'dt-body-right'
+            },
+            {
+                "targets": -2,
+                "className": 'dt-body-right'
+            }
+        ]
+    });
+    $('#fionaDatasetTable1').DataTable({
+        "paging":false,
+        "columnDefs": [
+            {
+                "targets": -1,
+                "className": 'dt-body-right'
+            },
+            {
+                "targets": -2,
+                "className": 'dt-body-right'
+            }
+        ]
+    });
+    $('#fionaDatasetTable2').DataTable({
+        "paging":false,
+        "columnDefs": [
+            {
+                "targets": -1,
+                "className": 'dt-body-right'
+            },
+            {
+                "targets": -2,
+                "className": 'dt-body-right'
+            }
+        ]
+    });
+    $('#fionaDatasetTable3').DataTable({
         "paging":false,
         "columnDefs": [
             {
